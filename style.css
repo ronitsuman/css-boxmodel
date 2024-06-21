@@ -1,0 +1,56 @@
+h1{
+    color: firebrick;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid greenyellow;
+    /* margin-top: 80px;
+    margin-left: 80px ;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    height: 200px ;
+    width: 300px;
+    text-align: center;
+    padding-top: 120px;
+    padding-left: 10px; */
+    /* kifn     top  right down left  */
+    margin-top: 0px;
+    margin-left: 120px;
+    margin-right: 130px;
+    height: 150px;
+    font-style: italic;
+    font-weight: 50;
+
+
+}
+h1:hover{
+    color: black;
+    text-decoration: underline;
+    font-family: cursive;
+    text-transform: uppercase;
+    
+}
+
+.link1{
+    font-size: 30px;
+    margin-left: 120px;
+    color: cadetblue;
+}
+.link1:hover{
+    color: chartreuse;
+}
+.link1:visited{
+    color: green;
+}
+.link1:active{
+    color: red;
+    content: counter(smksname);
+}
+.link2{
+    font-size: x-large;
+    margin-left: 220px;
+}
+.link3{
+    font-size: xx-large;
+    margin-left: 280px;
+}
