@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid website </title>
+    <style>
+        .container{
+            width: 450px;
+            height: 400px ;
+            border-radius: 10px ;
+            background-color: gray;
+            display: grid;
+            
+            
+            grid-template-columns:repeat(1,fr);
+            grid-template-rows: repeat(5,1fr);
+
+            
+        
+            
+        }
+        .box1{
+        grid-column: 1/5;
+        display: flex;
+        justify-content: space-between;
+        
+       
+            
+        
+
+
+
+        }
+        .box{
+            padding-left: 30px ;
+            font-size: large ;
+        }
+     
+        .box2{
+            grid-row: 5/2;
+            grid-column: 2/5;
+        }
+        .box3{
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1" style="background-color: red;">
+            <div  class="box">
+                <a href="#">Home </a>
+            </div>
+            <div class="box">
+                <a href="#">profile</a>
+            </div>
+            <div class="box">
+                <a href="#">arrived </a>
+            </div>
+            <div class="box">
+                <a href="#">contact us</a>
+            </div>
+            <div class="box">
+                <a href="#">log in </a>
+            </div>
+            <h1>H </h1>
+        </div>
+        <div class="box2" style="background-color: green;"><h2>2</h2></div>
+        <div class="box3" style="background-color: brown;"><h2>3</h2></div>
+        <div class="box4" style="background-color: blueviolet;"><h2>4</h2></div>
+        <div class="box5" style="background-color: chocolate;"><h2>5</h2></div>
+        <div class="box6" style="background-color: yellow;"><h2>6</h2></div>
+        <div class="box7" style="background-color: palevioletred;"><h2>7</h2></div>
+        <div class="box8" style="background-color: maroon;"><h2>8</h2></div>
+    </div>
+
+    </body>
+</html>
